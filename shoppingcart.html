@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="addtocart.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h1>Shopping Cart</h1>
+        <div class="search-bar">
+          <input type="text" placeholder="Search...">
+          <button type="button">Search</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <aside>
+        <h2>Categories</h2>
+        <ul>
+          <li>All</li>
+          <li>Beauty products</li>
+          <li>Shoes</li>
+          <li>Women</li>
+          <li>Men</li>
+          <li>Kids</li>
+        </ul>
+      </aside>
+      <section class="products">
+        <div class="product-card">
+          <img src="https://www.pixibeauty.com/cdn/shop/products/GlowTonic-250ml-MAY19_5_large.jpg?v=1701458044" alt="Product 1">
+          <div class="info">
+            <h3>Pixi glow tonic</h3>
+            <p>Award-winning highly concentrated facial toner, infused with 5% Glycolic Acid, deeply cleanses pores by sweeping away excess oil and impurities for balanced, soothed, prepped and radiant skin.</p>
+            <p>$29.00</p>
+            </div>
+            <div class="quantity">
+              <button class="decrement">-</button>
+              <input type="text" value="1">
+              <button class="increment">+</button>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/435de3fd-a4cf-4724-9c68-66b738532b2a/gamma-force-shoes-j4CpFl.png" alt="Nike shoes">
+          <div class="info">
+            <h3>Nike Gamma Force</h3>
+            <p>Layers upon layers of dimensional style—that's a force to be reckoned with. Offering both comfort and versatility, these kicks are rooted in heritage basketball culture. The collar materials pay homage to vintage sport while the subtle platform elevates your look, literally. The Gamma Force is forging its own legacy: court style that can be worn all day, wherever you go.</p>
+            <p>$102.32</p>
+            </div>
+            <div class="quantity">
+              <button class="decrement">-</button>
+              <input type="text" value="1">
+              <button class="increment">+</button>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://www.westside.com/cdn/shop/files/300967427RED_1.jpg?v=1707371300&width=493" alt="Womens top">
+          <div class="info">
+            <h3>Red puff seelve top</h3>
+            <p>Introducing Wardrobe top, in a red hue, comes with scoop neckline, puff sleeve and ribbed texture.</p>
+            </div>
+            <div class="quantity">
+              <button class="decrement">-</button>
+              <input type="text" value="1">
+              <button class="increment">+</button>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://imagescdn.allensolly.com/img/app/product/2/290749-1245370.jpg?q=75&auto=format&w=342" alt="Allensolly shirt">
+          <div class="info">
+            <h3>Men Black Ultra Slim Fit Solid Full Sleeves Formal Shirts</h3>
+            <p>Introducing the Allen Solly ultra slim fit cotton shirt in classic black-perfect for the modern man`s business casual wardrobe. the ultra-slim fit accentuates your silhouette while providing maximum comfort with the soft cotton material. suitable for any occasion, the solid pattern exudes sophistication and style. enhance your professional appeal effortlessly with this wardrobe must-have.</p>
+            <p>$12.524</p>
+            </div>
+            <div class="quantity">
+              <button class="decrement">-</button>
+              <input type="text" value="1">
+              <button class="increment">+</button>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/12705967a.webp">
+          <div class="info">
+            <h3>BUMZEE Full Sleeves Unicorn Detail Sleep Suit Romper - Pink</h3>
+            <p>Specifications
+              Brand Name - BUMZEE
+              Type - Sleep Suit Romper
+              Fabric - Interlock
+              Neck - Round Neck
+              Sleeves - Full Sleeves</p>
+            <p>$5.412</p>
+            </div>
+            <div class="quantity">
+              <button class="decrement">-</button>
+              <input type="text" value="1">
+              <button class="increment">+</button>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        </section>
+    </div>
+  </main>
+  
+  <footer>
+    <p>Copyright Â© 2024 Shopping Cart</p>
+  </footer>
+</body>
+</html>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 8px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  aside {
+    flex: 1;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .product-card img {
+    max-width: 300px;
+                margin: 20px;
+                background-color: beige;
+                border-radius: 8px;
+  }
+  
+  .info h3 {
+    margin-top: 0;
+  }
+  
+  .quantity {
+    margin-top: 10px;
+  }
+  
+  .quantity button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+</style>
